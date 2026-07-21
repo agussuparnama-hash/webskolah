@@ -1,0 +1,1 @@
+function cari(){let q=document.getElementById('cari').value.toLowerCase();document.querySelectorAll('#alumni tbody tr').forEach(r=>r.style.display=r.innerText.toLowerCase().includes(q)?'':'none');}
